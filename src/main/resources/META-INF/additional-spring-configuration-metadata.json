@@ -1,0 +1,28 @@
+{
+  "properties": [
+    {
+      "name": "yp.redission.host",
+      "type": "java.lang.String",
+      "description": "redis服务器host",
+      "defaultValue": "localhost"
+    },
+    {
+      "name": "yp.redission.port",
+      "type": "java.lang.Integer",
+      "description": "redis服务器端口",
+      "defaultValue": 6379
+    },
+    {
+      "name": "yp.redission.password",
+      "type": "java.lang.String",
+      "description": "redis服务器密码",
+      "defaultValue": "123456"
+    },
+    {
+      "name": "yp.redission.timeout",
+      "type": "java.lang.Integer",
+      "description": "redis服务器连接超时时间",
+      "defaultValue": 3000
+    }
+  ]
+}
